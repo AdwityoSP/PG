@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8bccf6e1-854e-01f0-ce23-afe9c080d97f}</ProjectGuid>
+    <ProjectGuid>{a5ba7006-1cd3-ca67-5450-9d0bea814b44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -256,6 +256,15 @@
     </Reference>
     <Reference Include="UnityEditor">
         <HintPath>D:/APLIKASI KAMPUS/Unity/2020.1.7f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>D:/APLIKASI KAMPUS/Unity/2020.1.7f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -603,85 +612,112 @@
         <HintPath>D:/APLIKASI KAMPUS/Unity/2020.1.7f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/KODING KAMPUS/C#/Prak 1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>D:/APLIKASI KAMPUS/GitHub/PG/MINAKU/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
