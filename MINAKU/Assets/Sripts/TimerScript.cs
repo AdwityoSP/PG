@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TimerScript : MonoBehaviour
 {
     public static float score;
+    public static float highScore = 10000000000;
 
     public Text scoreText;
     // Start is called before the first frame update
@@ -19,7 +20,12 @@ public class TimerScript : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "Berhasil")
         {
-            scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s";
+            if (score < highScore)
+            {
+                highScore = score;
+            }
+            scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat " + (highScore / 100).ToString() + "s" + "\n";
+
         }
         else if (SceneManager.GetActiveScene().name == "LevelMenu")
         {
