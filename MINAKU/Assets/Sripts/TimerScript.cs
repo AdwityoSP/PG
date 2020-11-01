@@ -6,9 +6,15 @@ using UnityEngine.UI;
 public class TimerScript : MonoBehaviour
 {
     public static float score;
-    public static float highScore = 10000000000;
+    public static float highScore1 = 10000000000;
+
+    public static float highScore2 = 10000000000;
+
+    public static float highScore3 = 10000000000;
 
     public Text scoreText;
+
+    public static string beforeScene;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +26,38 @@ public class TimerScript : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "Berhasil")
         {
-            if (score < highScore)
+            if (beforeScene == "MainGame1")
             {
-                highScore = score;
+                if (score < highScore1)
+                {
+                    highScore1 = score;
+                    scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore1 / 100).ToString() + "s" + "\n";
+                }
             }
-            scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat " + (highScore / 100).ToString() + "s" + "\n";
+
+
+            if (beforeScene == "MainGame2")
+            {
+                if (score < highScore2)
+                {
+                    highScore1 = score;
+                    scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore1 / 100).ToString() + "s" + "\n";
+                }
+            }
+
+
+            if (beforeScene == "MainGame3")
+            {
+                if (score < highScore3)
+                {
+                    highScore1 = score;
+                    scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore1 / 100).ToString() + "s" + "\n";
+                }
+            }
+
+
+
+
 
         }
         else if (SceneManager.GetActiveScene().name == "LevelMenu")
@@ -33,9 +66,13 @@ public class TimerScript : MonoBehaviour
         }
         else
         {
+            beforeScene = SceneManager.GetActiveScene().name;
+            Debug.Log(beforeScene);
+
             score = score + 1;
         }
-        Debug.Log(score);
 
     }
+
+
 }
