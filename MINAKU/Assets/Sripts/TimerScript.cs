@@ -31,8 +31,9 @@ public class TimerScript : MonoBehaviour
                 if (score < highScore1)
                 {
                     highScore1 = score;
-                    scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore1 / 100).ToString() + "s" + "\n";
                 }
+
+                scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore1 / 100).ToString() + "s" + "\n";
             }
 
 
@@ -40,9 +41,10 @@ public class TimerScript : MonoBehaviour
             {
                 if (score < highScore2)
                 {
-                    highScore1 = score;
-                    scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore1 / 100).ToString() + "s" + "\n";
+                    highScore2 = score;
                 }
+
+                scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore2 / 100).ToString() + "s" + "\n";
             }
 
 
@@ -50,9 +52,9 @@ public class TimerScript : MonoBehaviour
             {
                 if (score < highScore3)
                 {
-                    highScore1 = score;
-                    scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore1 / 100).ToString() + "s" + "\n";
+                    highScore3 = score;
                 }
+                scoreText.text = "Anda selesai dalam " + (score / 100).ToString() + "s" + "\n" + "Waktu Tercepat di " + beforeScene + " " + (highScore3 / 100).ToString() + "s" + "\n";
             }
 
 
