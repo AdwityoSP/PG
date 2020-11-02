@@ -48,6 +48,8 @@
      <Compile Include="Assets\Sripts\Pause.cs" />
      <Compile Include="Assets\Sripts\SceneLv1.cs" />
      <Compile Include="Assets\Sripts\CharacterController2D.cs" />
+     <Compile Include="Assets\Assets\HeartsHealthSystem\Scripts\HeartsHealthSystem.cs" />
+     <Compile Include="Assets\Assets\HeartsHealthSystem\Scripts\HeartsHealthVisual.cs" />
      <None Include="Assets\Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

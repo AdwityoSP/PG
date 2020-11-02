@@ -70,7 +70,7 @@ public class TimerScript : MonoBehaviour
         {
             beforeScene = SceneManager.GetActiveScene().name;
             Debug.Log(beforeScene);
-
+            scoreText.text = (score / 100) + "s";
             score = score + 1;
         }
 
