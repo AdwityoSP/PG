@@ -40,6 +40,7 @@ public class HeartsHealthVisual : MonoBehaviour
 
     private void Start()
     {
+        isDead = false;
         //FunctionPeriodic.Create(HealingAnimatedPeriodic, .05f);
         HeartsHealthSystem heartsHealthSystem = new HeartsHealthSystem(5);
         SetHeartsHealthSystem(heartsHealthSystem);

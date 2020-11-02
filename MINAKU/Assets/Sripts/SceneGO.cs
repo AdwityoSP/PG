@@ -8,6 +8,7 @@ public class SceneGO : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(HeartsHealthVisual.isDead);
 
         if (HeartsHealthVisual.isDead == true)
         {
