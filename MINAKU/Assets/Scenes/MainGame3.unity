@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456f623c70539d641b180f690b4410d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 444441030}
 --- !u!114 &69402145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -596,7 +596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6608f11143b6abb49b32a3856e22be08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 444441039}
 --- !u!81 &69402146
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2293,6 +2293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kontroler: {fileID: 444441033}
   kecepatanjalan: 200
+  animasi: {fileID: 444441035}
 --- !u!61 &444441032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2343,7 +2344,19 @@ MonoBehaviour:
   m_CrouchDisableCollider: {fileID: 444441032}
   OnLandEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 444441031}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Mendarat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
